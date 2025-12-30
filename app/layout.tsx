@@ -50,7 +50,7 @@ export default function RootLayout({
             Complimentary shipping on all orders over $200
           </div>
           {/* Passing empty currentHash initially; will refactor Navbar to manage its own state */}
-          <Navbar currentHash="" />
+          <Navbar />
           <main className="flex-grow">{children}</main>
           <Newsletter />
           <Footer />
